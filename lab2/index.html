@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Functions</title>
+</head>
+<body>
+
+  <script>
+    // (a) Create a function to calculate the area of a circle with a radius of 6.
+    const calculateCircleArea = (circleRadius) => {
+      const pi = Math.PI;
+      const area = pi * circleRadius * circleRadius;
+      return area;
+    };
+
+    // (b) Create a function that implements arithmetic functions: addition, subtraction, multiplication, and division.
+    const performArithmeticOperations = (operand1, operand2) => {
+      const additionResult = operand1 + operand2;
+      const subtractionResult = operand1 - operand2;
+      const multiplicationResult = operand1 * operand2;
+      const divisionResult = operand1 / operand2;
+
+      return {
+        additionResult,
+        subtractionResult,
+        multiplicationResult,
+        divisionResult,
+      };
+    };
+
+    // (c) Create a function to calculate the area of a rectangle with a length of 20, and width of 15.
+    const calculateRectangleArea = (rectangleLength, rectangleWidth) => {
+      const area = rectangleLength * rectangleWidth;
+      return area;
+    };
+
+    console.log("Circle Area:", calculateCircleArea(6));
+
+    const arithmeticResults = performArithmeticOperations(10, 5);
+    console.log("Arithmetic Results:", arithmeticResults);
+
+    console.log("Rectangle Area:", calculateRectangleArea(20, 15));
+
+    //- Add comments to your script to answer the following questions:
+// (a) What is the scope of a const variable? The scope of a const variable is block-scoped.
+
+// (b) When were the let and const keywords added to JavaScript? The let and const keywords were added to JavaScript in ECMAScript 6 (ES6), which was finalized in June 2015.
+  </script>
+
+</body>
+</html>

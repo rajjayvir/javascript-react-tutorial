@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Number Counter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .results {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="mb-3">
+            <label for="numbersInput" class="form-label">Enter numbers (comma separated):</label>
+            <input type="text" class="form-control" id="numbersInput">
+        </div>
+        <button class="btn btn-primary" onclick="calculate()">Calculate</button>
+        <div class="results">
+            <h2>Results:</h2>
+            <p>Using for loop:</p>
+            <p id="forLoopResult"></p>
+            <p>Using forEach loop:</p>
+            <p id="forEachLoopResult"></p>
+            <p>Using map method:</p>
+            <p id="mapMethodResult"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

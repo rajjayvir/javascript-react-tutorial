@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>L5V1 Example</title>
+  </head>
+  <body>
+    <script>
+      let a = 5;
+      let b = 3;
+      let typeOfOperation = "Divide";
+
+      function calc(a, b, typeOfOperation) {
+        if (typeOfOperation === "Add") {
+          console.log(a + b);
+        } else if (typeOfOperation === "Sub") {
+          console.log(a - b);
+        } else if (typeOfOperation === "Multiply") {
+          console.log(a * b);
+        } else if (typeOfOperation === "Divide") {
+          console.log(a / b);
+        }
+      }
+      calc(a, b, typeOfOperation);
+    </script>
+    Check the console
+  </body>
+</html>

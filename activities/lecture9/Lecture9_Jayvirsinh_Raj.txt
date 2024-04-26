@@ -1,0 +1,9 @@
+# Lecture 9
+
+* *Date Created*: 16 Feb 2024
+* *Last Modification Date*: 29 Feb 2024
+* *Lab URL*: <https://web.cs.dal.ca/~jraj/csci3172/lecture9/>
+* *Git URL*: <https://git.cs.dal.ca/jraj/csci3172/-/tree/main/activities/lecture9>
+
+## Authors
+* [Jayvirsinh Raj](jy712996@dal.ca)
